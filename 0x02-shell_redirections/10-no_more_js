@@ -1,2 +1,2 @@
 #!/bin/bash
- rm -r *.js
+find . -type f | grep b.js | xargs rm -f
