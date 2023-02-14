@@ -1,4 +1,3 @@
 #!/bin/bash
 printf "%s
-" {a..n}{a..z} ; printf "%s
-" {p..z}{a..z}
+" {a..z}{a..z} | grep -v "^oo"
