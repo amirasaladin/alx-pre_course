@@ -1,0 +1,2 @@
+#!/bin/bash
+tr [$(echo {a..m} {A..M} {n..z} {N..Z} | tr ' ' ,)] [$(echo {n..z} {N..Z} {a..m} {A..M} | tr ' ' ,)]
