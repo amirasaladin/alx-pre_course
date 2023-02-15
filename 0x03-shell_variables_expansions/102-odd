@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '\n' ':' | cut -f $(echo {1..100..2} | tr ' ' ,) -d ":" | tr ':' '\n'
+tr '\n' ':' | cut -f $(echo {1..100..2} | tr ' ' ,) -d ":" | rev | cut -c2- | rev | tr ':' '\n'
